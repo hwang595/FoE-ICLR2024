@@ -1,0 +1,1 @@
+python mnist_uncertainty_gate.py --var_bs 2000

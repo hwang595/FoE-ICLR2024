@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python fedcifar100_localsgd.py --num_clients=10 --alpha=0.9 --fl_rounds=250 --local_ep=20 --local_bs=128 --lr=0.001 --momentum=0.9

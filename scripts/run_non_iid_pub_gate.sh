@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python cifar10_non_iid_pub_gate.py --num_clients=10 --alpha=0.9 --fl_rounds=50 --local_ep=5 --global_ep=5 --local_bs=128 --global_bs=128 --lr=0.1 --momentum=0.9
